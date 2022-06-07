@@ -1,0 +1,11 @@
+allennlp==2.1.0
+bert_score==0.3.8
+configargparse==1.2.3
+levenshtein==0.12.0
+lightgbm==3.1.0
+openattack==1.1.1
+seaborn==0.11.0
+textattack==0.2.15
+torch==1.7.0
+transformers==4.3.3
+tqdm==4.60.0
