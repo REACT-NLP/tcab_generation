@@ -38,7 +38,7 @@ The learned target model will be saved to `target_models/[dataset]/[model]/`.
 
 ### Attack
 
-Run the following script to generate adversarial against a target model trained on a select dataset with a select attack method from either the TextAttack or OpenAttack toolchain.
+Run the following script to generate adversarial against a target model trained on a select dataset with a select attack method from either the [TextAttack](https://github.com/QData/TextAttack) or [OpenAttack](https://github.com/thunlp/OpenAttack) toolchain.
 
 `python3 scripts/attack.py` with arguments:
 
@@ -71,3 +71,14 @@ Results are saved into `attacks/[dataset_name]/[model_name]/[attack_toolchain]/[
 
 
 ## Extending TCAB
+After following the **Install** steps above, use the instructions below to extend TCAB with additional datasets or attacks.
+
+### Adding a Domain Dataset
+To add a new domain dataset:
+
+1. Create a new directory in the `data` directory with the name of the dataset: `data/[dataset]/`.
+2. Create a readme in the new directory describing exactly how to download the raw data, and how to preprocess it.
+3. After preprocessing, there should be a `train/val/test.csv` files in that directory.
+
+### Adding an Attack
+To generate adversarial examples for a new attack, follow the steps in the **Attack** subsection under the **Dataset Generation** section above.
