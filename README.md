@@ -82,3 +82,13 @@ To add a new domain dataset:
 
 ### Adding an Attack
 To generate adversarial examples for a new attack, follow the steps in the **Attack** subsection under the **Dataset Generation** section above.
+
+### Dataset and Target Models
+You can find the TCAB dataset [here](https://zenodo.org/record/6615386#.YtLkUnbMKUl).
+We also provide the target models used to generated these attacks on Google Drive. In case you need to download the models to a linux environment, consider using packages such as [gdrive](https://github.com/prasmussen/gdrive).
+- [hatebase](https://drive.google.com/drive/folders/1j3siF5joTffwmCRTvchy2ELf6U6xpz6-)
+- [wikipedia](https://drive.google.com/drive/folders/1jWdg2qZ6CG0LoLnGhg8i14GE-Xv7klnT)
+- [civil comments](https://drive.google.com/drive/folders/1YP7FXtEA18hKBklyLYr6oa06avmrucSJ)
+- [climate change waterloo](https://drive.google.com/drive/folders/19XCu3BmRjl80zEXSd5uMGtetZU9-LpeV)
+- [imdb](https://drive.google.com/drive/folders/1sYzJCZAgZWuj8tfsx5ZRB-l8kbBcPadP)
+- [sst-2](https://drive.google.com/drive/folders/1RrslogWv0djknDXxSU4PKRWQoFVWh-sJ)
